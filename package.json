@@ -1,0 +1,52 @@
+{
+  "name": "Autevo",
+  "version": "0.0.1",
+  "private": true,
+  "scripts": {
+    "start": "node node_modules/react-native/local-cli/cli.js start",
+    "test": "jest",
+    "lint": "eslint ."
+  },
+  "dependencies": {
+    "@react-native-community/async-storage": "^1.2.4",
+    "react": "16.8.3",
+    "react-native": "0.59.8",
+    "react-native-custom-radio-button": "^1.0.2",
+    "react-native-datepicker": "^1.7.2",
+    "react-native-device-info": "^1.5.0",
+    "react-native-elements": "^1.1.0",
+    "react-native-fbsdk": "^0.8.0",
+    "react-native-firebase": "^5.3.1",
+    "react-native-flexi-radio-button": "^0.2.2",
+    "react-native-gesture-handler": "^1.1.0",
+    "react-native-image-picker": "^0.28.1",
+    "react-native-location-view": "^0.1.5",
+    "react-native-maps": "^0.23.0",
+    "react-native-modal-dropdown": "^0.6.2",
+    "react-native-otp-input": "^1.0.11",
+    "react-native-otp-inputs": "1.1.0",
+    "react-native-paper": "^2.15.0",
+    "react-native-phone-input": "^0.2.1",
+    "react-native-responsive-dimensions": "^2.0.1",
+    "react-native-segmented-control-tab": "^3.4.0",
+    "react-native-simple-radio-button": "^2.7.3",
+    "react-native-splash-screen": "^3.2.0",
+    "react-native-vector-icons": "^6.4.2",
+    "react-navigation": "^3.5.1",
+    "rn-round-checkbox": "^0.3.4",
+    "toggle-switch-react-native": "^2.0.2"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.4.0",
+    "@babel/runtime": "^7.4.2",
+    "@react-native-community/eslint-config": "^0.0.3",
+    "babel-jest": "^24.5.0",
+    "eslint": "^5.15.3",
+    "jest": "^24.5.0",
+    "metro-react-native-babel-preset": "^0.53.1",
+    "react-test-renderer": "16.8.3"
+  },
+  "jest": {
+    "preset": "react-native"
+  }
+}
